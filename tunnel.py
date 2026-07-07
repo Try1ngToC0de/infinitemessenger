@@ -4,6 +4,8 @@ import re
 import requests
 import sys
 import logging
+import os
+import platform
 from jsonbox import JB_API, JB_URL
 
 # ====== НАСТРОЙКА ЛОГИРОВАНИЯ ======
@@ -20,6 +22,23 @@ console_handler = logging.StreamHandler(sys.stdout)
 console_handler.setLevel(logging.INFO)
 console_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
+
+# ====== ОПРЕДЕЛЕНИЕ ОС ======
+def get_clo_command():
+    """Возвращает команду для запуска clo в зависимости от ОС"""
+    system = platform.system().lower()
+    
+    if system == 'windows':
+        # На Windows используем clo.exe (если он в PATH или в папке проекта)
+        return ['clo.exe' if os.path.exists('clo.exe') else 'clo']
+    elif system == 'linux':
+        # На Linux используем clo (обычно установлен в /usr/local/bin)
+        return ['clo']
+    elif system == 'darwin':  # macOS
+        return ['clo']
+    else:
+        logger.error(f"❌ Неподдерживаемая ОС: {system}")
+        sys.exit(1)
 
 # ====== ОСНОВНОЙ КОД ======
 def update_jsonbox(url):
@@ -40,7 +59,7 @@ def update_jsonbox(url):
         return False
 
 def get_cloudpub_url_from_output(text):
-    # Ищем адрес, который выдаёт CloudPub
+    """Извлекает URL туннеля из вывода clo"""
     match = re.search(r'https://([a-zA-Z0-9-]+)\.cloudpub\.ru', text)
     if match:
         return f"https://{match.group(1)}.cloudpub.ru"
@@ -49,14 +68,21 @@ def get_cloudpub_url_from_output(text):
 def run_tunnel():
     logger.info("🚀 Сервис туннелирования (CloudPub) запущен")
     
-    # Путь к clo.exe (он в той же папке)
-    clo_path = "./clo.exe"
+    clo_cmd = get_clo_command()
+    logger.info(f"Используется команда: {' '.join(clo_cmd)}")
+    
+    # Проверяем, что clo доступен
+    try:
+        subprocess.run(clo_cmd + ['--version'], capture_output=True, check=True)
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        logger.error(f"❌ Команда {' '.join(clo_cmd)} не найдена. Установи clo с cloudpub.ru")
+        sys.exit(1)
     
     while True:
         logger.info("Запускаю туннель через CloudPub...")
         
         # Команда для публикации локального порта 7089
-        cmd = [clo_path, "publish", "http", "7089"]
+        cmd = clo_cmd + ["publish", "http", "7089"]
         
         process = subprocess.Popen(
             cmd,
