@@ -50,29 +50,17 @@ InfiniteServerCommunity
 
 ## запуск
 
-### windows (infinitestart)
-
-если ты на windows, просто запусти `infinitestart` в терминале из корня проекта:
-
-```bash
-infinitestart
-```
-
-этот файл запускает туннель и сервер одновременно.
-
-### другие ос (linux / macos)
-
-если ты на linux или macos, используй `start.py`:
+используй `start.py`:
 
 ```bash
 python start.py
 ```
 
 этот скрипт:
-- запускает туннель через `windows_tunnel.py` (адаптируй под свою ос, если нужно)
+- запускает туннель через `tunnel.py`
 - через 5 секунд запускает `messenger_server/main.py`
 
-если нужен отдельный запуск туннеля — используй `windows_tunnel.py` или `cloudpub` напрямую.
+если нужен отдельный запуск туннеля — используй `tunnel.py` или `cloudpub` напрямую.
 
 ---
 
