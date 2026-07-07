@@ -1,0 +1,7 @@
+flask
+flask-cors
+pyjwt
+cryptography
+python-dotenv
+requests
+psutil

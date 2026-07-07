@@ -1,0 +1,33 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# секреты
+.env
+mykeys.yaml
+regenerate.py
+
+# данные
+*.db
+*.sqlite3
+data/
+*.json
+
+# логи
+*.log
+tunnel.log
+
+# бинарники и сборка
+*.spec
+*.exe
+build/
+dist/
+pythonclobytes.py
+
+# ide
+.vscode/
+.idea/
