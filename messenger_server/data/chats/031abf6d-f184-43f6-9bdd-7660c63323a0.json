@@ -1,0 +1,80 @@
+{
+  "id": "031abf6d-f184-43f6-9bdd-7660c63323a0",
+  "name": "Личный чат",
+  "type": "single",
+  "participants": [
+    "BetaTester",
+    "nikto (создатель)"
+  ],
+  "created_at": "2026-06-24T13:31:49.357596",
+  "last_message": null,
+  "messages": [
+    {
+      "id": "b470b129-fbff-4db8-8b95-57457d28205e",
+      "from_user": "BetaTester",
+      "encrypted": {
+        "nikto (создатель)": "gaaq01cJ7yhIaU2n2HhK+Jx02HQaa36W3I/MTVxKPHe8CgvY+s6LFeb6yDvQsmbAcQk2TDPmET2eYTfvvs8GhdaQD0EZc9DEphh1iHB4HTauNMHOTuv0C2oBISpSvp29h+qufp3Nt86Z1ABV6mQJpXofE8KW8oztLqPXN7Oc80mxuNm8Ense9pMXf71XTY+cYnWY2lYSpPJq5aNIgNqsicVlKStCaVqhM72QcsSp7ghP5bKVWQphb464WPDYMT8sV8jgjJe+sYfgYLFxcrV7Y/0E+K7VYwEX3fQ8D/6W6N5WBdn9P59v/OjbdzrgqsHj1KrdhERmYuufE2pUm5L0Kw=="
+      },
+      "timestamp": "2026-06-24T13:32:32.166552"
+    },
+    {
+      "id": "a77b225f-33b1-48dc-b8b9-1943c0a6110b",
+      "from_user": "nikto (создатель)",
+      "encrypted": {
+        "BetaTester": "f0F0kmvi0OC9uFnAnAq8J9FDjLGtQeMOmq6XBlrZn17dUEVGhSBoeVUjHIRAiKuLeV9Ez4aBXjBOiK/+99z7eZ5M471KlUKbJVbqAdXSE/XeFg7JgVmS8I/ln+nvXnBBoy+GaQsIZS96o9sG4LPT4Cdfn/rVpf4pVuJmYpS1ajHyHQTxQD20LFd0XMqNrljoDWTAflHPVOizMgfU8EAZZMsbri4Jzgw0BVM4ljdvpSHsN+XIcQ6f88PNfAlS04tlN0ph44cYNjpCthpiZNJfC2XOiSwmbzYS+Qg+m6g86OchbtnnZJFpFXX3uL5xUTfmvop13uaPSorPZ6TC8qpLmQ=="
+      },
+      "timestamp": "2026-06-24T13:35:57.964476"
+    },
+    {
+      "id": "0e68ae66-6dd8-48e1-9617-ca32829025f1",
+      "from_user": "BetaTester",
+      "encrypted": {
+        "BetaTester": "S2N/Pensekbu+yjdicidfSfP0vI7KkNtCo4Kk7rDdhUB655gO9QW2sWC/Gpt93eanAjUGfvtnX7aNnLeVQMdGDLawkRTZie/AiLLDt3OoX44In22OkOodl/s1P15hEK5hblHZrHUiptR2HajqGMT62LcOTn0sW/3ivIyP5KHusBZpdZr9nP55GEakpExWl4ifRMw/B9szc7VvW7Z4fHeW77uTtzLvkHyFeANSr6tdxI81Hzl+WoB3bFBITVSJG7nx1NeacYT0809kNnk6IX+n47F2Fzj3igTd60LlOdnUgZokg2Om4utFGGakaQC488iqVCIdWs2FQREVSkgh8zWUQ==",
+        "nikto (создатель)": "efsuW17U3M2GwCkvrsdYCZUBKJjtMSHyUkB+nk+ZMz04px0pTxrFqsHd7qv/VXQtJe+/MwyEy48N/VGSogGrMF2T0Maya4vHKQOpQvvK9ATe7uVuT94pbVyYnuf0B24W6Gn8kHRRM+PHRBJXYKYwagu8FFjwWyi5Nbz7M0YiA3jALFJN+ce4KjMbY0tERHZVzeOslgREQAjYnhAtDLIaVSAHdiGVUtH3Ov+JV2ffVtCrB/dR5Gg1o5Ze2h5u2kOCtxgykc3iAZ044sbnXelv1PBH0VEZHqN+JQR3s0rbsgMQSrPRxSd1OWr9HEa3cgZYHrV7p9rsIPOHLNulTx78ZA=="
+      },
+      "timestamp": "2026-06-24T13:40:49.002462"
+    },
+    {
+      "id": "9032493d-283d-4ca5-a467-0c29e4d81855",
+      "from_user": "nikto (создатель)",
+      "encrypted": {
+        "BetaTester": "lEYvcp+78/qc/l/MW87ITKMFzI5yxspIA2TUTVtyUIQK88KK2CBiFYr7vJv5ueZY4utMAEaqiQnoYUy0ImBiaBgYU3vK3huNsCrC+ZghDx8zENtJuf60zoZSp+SDud0NS9v4+rsEjyryWpDKPToYsOwlWSboxgWUbEbnGEn4dP8DTMYPZBHHraRjLVjIsaY0wwbNf7i54rdxkj5tzfWBzC1rxv0T5PzwQU1rq1SsLlVUnRpqn6NaOdCOf9jAr7CtqM2uBsg5jO7nwdvpet8cB27+V5IAnqs+Gub6pDzfCqcjGs7YfCWMebZS2KR06popwkdJVIoNmrEb4h2PNL6H4Q=="
+      },
+      "timestamp": "2026-06-24T13:41:14.464457"
+    },
+    {
+      "id": "1a803377-7071-4c7c-812c-99b913ab512e",
+      "from_user": "nikto (создатель)",
+      "encrypted": {
+        "BetaTester": "hAPiKV5rTelGYf5tdvCGexboktlH3/YOeBKG7hvFNJ+Y5yYsSHGYvTNHxOeZOZCM/uC3RvvhDvDnfCgPOO61hn+ZciHaGpp6veLG31BTZIFgGz6OI4V2wLBDVJKAZ52EH9Y6E49/k5yh18/JcX3PJo+/tEkIt7hP9gch299io5SxJKuRIfB1ousHLDvXNq6qKEV7pO3uUuHBIYUZfOF3YeUsc2oMVWpXo/pq9z/0ixvinvcUNbJBDDi9RyhzHkh94Wz0KGgh5yt714j59WR14T644q9B008ZQft1z6RUb7P2PtEBeMj6tM99ZZEg38uPPSLH3EV7D/g8aPzU+tecUA==",
+        "nikto (создатель)": "GKEYAtfTrhhlUZJrcQ5MOi3ymsCo6eq2jx+tTolsrw2/CFpdmjQwrF7cV0V5ToKqplUBaL4CINUC+mfy1uFl6BGsxtyh6ab4olPX9ZIGg7EQCB0ri3T32ja5ED42c2atc8e0ysMPXr271EN+qWRllaNq2I9sxPoSuT/e38imnLTJ8qVB8f8Ly1Z706OdJ1I93FyUCGy3EdCtwdOVmx/u/GQKWvXclyAmDaKXG9MAUneup31bOeEfIMX/yvX/N0kq0guGP2GTNK8rKyLTAMtC++q/HG6Vr3KXw+6elCkNU/O+fbp3VqFTHsz+AjIePY6HOWmguw1GflbyOHf9bwfwVw=="
+      },
+      "timestamp": "2026-06-24T14:11:38.220571"
+    },
+    {
+      "id": "5083cfd1-8dfb-4a61-af2b-6889d03440ac",
+      "from_user": "nikto (создатель)",
+      "encrypted": {
+        "BetaTester": "kMw52Fw52W+zwA8AMho+lSL4uoW7/6q5DLCtwEChySHmLU1vUtlJ1bvfONXP4TmKl3sdSxXgMT7KlC6BZnwoEu0/uOzho+XR26/LKyUjsUSmVajnLtn7H0RK122jNgwjDwaEI7KiFX14bgZe/Jk1i691O9uroA7x+NLiMRM4PVENJ1sklcE3GMjTkZm+EIqNk2awxNHBo/jihMhtw2S//aSKAe9vzMkw3586nf1XUsCHphk47IKPafGp0SZwUEuoNG7dyVpDTZHdJ9ULEhnBY6sFA8YbvCDS+ipsknF3g7S3vGyVor7CHVS7BDnuMlJU85COgHGchgpqWAPL9amRkw=="
+      },
+      "timestamp": "2026-06-24T14:22:59.344367"
+    },
+    {
+      "id": "02cdf305-af76-4acf-927d-777175d2bbdd",
+      "from_user": "nikto (создатель)",
+      "encrypted": {
+        "BetaTester": "XFG74zU9AejQnOF0gpY8b/bvIMg8KzM6aq+mjsU3a/3kGWRcUvruhMeq82XeFACGi3mKdgpL67sA3AVGPkq/Fl1/YQYVmCevNd6dwM8u5UsbyGJKSNSeJ1F5z21yqtqtvWyYIP39NAgCQuqMNi237xp26gt7gxmwcFneN1x2dbaa5it9xjxKMJh4lct3JuLz6ZYyGohfrtQlpgn/pJbVyfQrJsN1j411y/mq94s1XEAzgmfbQpik5faSeI8qdyJWJnuftJBPzBB0uW2alf7vehStnuwQTWt6ehQkrFpYws7g5xgwI42rub39g5JrBbusunzFbJmDufniyxlT/vYdUg=="
+      },
+      "timestamp": "2026-06-24T15:46:10.756239"
+    },
+    {
+      "id": "ac88bec0-ae21-4364-adb2-9508d038ef24",
+      "from_user": "nikto (создатель)",
+      "encrypted": {
+        "BetaTester": "Enm/VA6L2Kv+bBhE8Hr81sTTZFyth9+Jag7Yy+dX5QIKxDyyKsTr/48oDM+nCfVszqCh7ukmEboFuYMm136QSVyhMg503VTR2EJ6vTvB+4OlmRd9BIoy4Sw575JxS1LMyMQZZLYXLs7LJn6BWDs4rrzI7JoFNfyxM0hzatHRdAvLR1SjZDM2eBLyetDCpBnh1/mI3jel9G7+XBXZgq9nrOj3fkEH8vGkscg1IQo7nuGk1Yw1dupY+67yUPkGrA8isPRIggf5jZXkZlRjvZNX9Uk8p9S62k5ApGKzDJuLsmC2VIqaG5L6FgoJAlUucHKwWZaAGN2HOlhvnXnoEemJJQ==",
+        "nikto (создатель)": "tkwpCD+BxWrxSVTN4YpioL7M5BFKg0vqzyoatdMjIGehud1aTGj214db7nPkmSKsne7nSNt1Oka4dFbc6pf7oJczSGM2aM1MGU1REHBqOvnanFAQP1+fWQwMK57nqYIdNa1Sp8lmhNJZ8qOXT1rs4jggcABUOQZVhFWxRlS/fYQ6dgtd+oJcXpb0NwMOkHnXNolnA4wQzEmbi3uD1AHAC87ivDHWDyyf6mNs4hZTMttfm4DE7cHhYhEmXLatEMqRKvGNUYHP2c2+mEZyHwq9t9Udwnhh7eJhx3nNgOkLoyXwYW7FWDOI3ED4iWOWbxd0f2jEyIDTqET1gqT5JWCYZA=="
+      },
+      "timestamp": "2026-06-24T16:18:29.870293"
+    }
+  ]
+}
